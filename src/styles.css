@@ -1,1 +1,60 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+:root{
+    --color--bg: #FFFF;
+    --color--bg-text: #C96B41;
+    --color--header: #EEDFD4;
+    --color--text: #0000;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: var(--color--bg);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+/* div,section,main,header,nav{
+    border: 2px solid white;
+}  */
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+p, button{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column{
+    flex-direction: column;
+}

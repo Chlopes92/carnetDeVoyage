@@ -1,0 +1,10 @@
+<section *ngFor="let item of lastArticle">
+    <a [routerLink]="['/article', item.id]">
+        <img src="{{ item.mainPicture }}" alt="{{item.country}}">
+        <div class="card">
+            <h3>{{ item.country }} - {{ item.city }}</h3>
+            <div class="vertical"></div>
+            <p>{{ item.startDate | date:'dd.MM.yy' }} · {{ item.returnDate | date:'dd.MM.yy' }}</p>
+        </div>
+    </a>
+</section>

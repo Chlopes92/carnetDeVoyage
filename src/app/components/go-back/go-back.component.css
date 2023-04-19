@@ -1,0 +1,10 @@
+button{
+    height: 74px;
+    width: 74px;
+    background-color: var(--color--bg-text);
+    border: none;
+}
+
+img{
+    margin: auto;
+}

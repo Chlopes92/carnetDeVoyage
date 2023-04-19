@@ -1,0 +1,10 @@
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+h4{
+    font-size: 24px;
+    font-weight: 400;
+}

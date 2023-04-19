@@ -1,0 +1,21 @@
+<main>
+    <h2>Autres voyages</h2>
+    <section>
+        <article *ngFor="let item of otherArticle">
+            <a [routerLink]="['/article', item.id]">
+                <img src="{{ item.mainPicture }}" alt="{{item.country}}">
+                <div class="card">
+                    <div class="title">
+                        <h3> {{ item.country }} </h3>
+                        <h4> {{ item.city }} </h4>
+                    </div>
+                        <div class="vertical"></div>
+                    <div class="date">
+                        <p> Du {{ item.startDate | date:'dd.MM.yy' }} </p>
+                        <p> au {{ item.returnDate | date:'dd.MM.yy' }} </p>
+                    </div>
+                </div>
+            </a>
+        </article>
+    </section>
+</main>

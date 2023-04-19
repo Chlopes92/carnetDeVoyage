@@ -1,0 +1,28 @@
+app-header{
+    height: 70px;
+}
+
+app-footer{
+    height: 100px;
+}
+
+main{
+    flex: 1;
+    overflow-y: scroll;
+    height: 78vh;
+    max-height: 78vh;
+    padding: 20px;
+    padding-top: 44px;
+}
+
+@media(min-width: 1030px){
+    main{
+        padding-left: 167px;
+        padding-top: 69px;
+        padding-right: 81px;
+        max-height: 178vh;
+        height: 180vh;
+    }
+
+   
+}

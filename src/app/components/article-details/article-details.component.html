@@ -1,0 +1,7 @@
+<section *ngFor="let item of articleDetail">
+    <div class="card">
+        <h3>{{ item.country }} - {{ item.city }}</h3>
+        <p>{{ item.startDate | date:'dd.MM.yy' }} · {{ item.returnDate | date:'dd.MM.yy' }}</p>
+    </div>
+        <img src="{{ item.mainPicture }}" alt="{{item.country}}">
+</section>

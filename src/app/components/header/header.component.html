@@ -1,0 +1,13 @@
+<header>
+    <p>Carnet de voyage</p>
+    <div class="mobile"></div>
+    <hr class="top">
+    <hr class="bottom">
+        <ul *ngIf="weatherInfo">
+            <li>{{weatherInfo.address}}</li>
+            <li>☀ {{weatherInfo.currentConditions.temp}}°C</li>
+        </ul>
+</header>
+
+
+

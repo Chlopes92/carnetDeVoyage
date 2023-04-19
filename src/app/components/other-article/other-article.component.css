@@ -1,0 +1,77 @@
+h2{
+    margin-bottom: 35px;
+}
+
+h3{
+    /* font-weight: 400; */
+    font-size: 15px;
+    /* margin: 26px; */
+}
+
+h4{
+    font-size: 12px;
+}
+
+img{
+    min-width: 100%;
+}
+
+p{
+    font-weight: 400;
+    font-size: 10px;
+    margin: auto;
+}
+
+.card{
+    background: var( --color--bg-text);
+    color: white;
+    position: relative;
+    top: -46px;
+    height: 74px;
+    display: grid;
+    grid-template-columns: 8fr 0fr 4fr;
+}
+
+.title, .date{
+    margin: 15px;
+}
+
+.vertical{
+    border-left: white solid 1px;
+}
+
+@media (min-width: 900px){
+ 
+    h3{
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+    h4{
+        font-size: 16px;
+    }
+
+    p{
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .card{
+        position: relative;
+        top: -75px;
+        height: 75px;
+    }
+
+}
+
+@media (min-width: 700px){
+
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 29px;
+}
+
+}
+
