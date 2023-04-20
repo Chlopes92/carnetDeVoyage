@@ -1,0 +1,30 @@
+div{
+    background-color: var(--color--bg-text);
+    padding: 23px;
+}
+
+h2{
+    font-size: 28px;
+    margin-top: 76px;
+    margin-bottom: 35px;
+}
+
+p{
+    color: white;
+    font-size: 18px;
+}
+
+@media(min-width: 1030px){
+    div{
+        padding: 69px;
+    }    
+
+    h2{
+        font-size: 60px;
+        margin-top: 114px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+}

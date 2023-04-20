@@ -11,17 +11,19 @@ main{
     overflow-y: scroll;
     height: 78vh;
     max-height: 78vh;
-    padding: 20px;
+    padding: 18px;
     padding-top: 44px;
 }
 
-@media(min-width: 1030px){
+@media(min-width: 1032px){
     main{
-        padding-left: 167px;
-        padding-top: 69px;
-        padding-right: 81px;
+        /* padding-left: 167px; */
+        padding-top: 70px;
         max-height: 178vh;
         height: 180vh;
+        width: 1029px;
+        margin: auto;
+    
     }
 
    

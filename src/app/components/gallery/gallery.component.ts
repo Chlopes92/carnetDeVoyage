@@ -15,8 +15,18 @@ export class GalleryComponent {
 
   ngOnInit() {
     const id = this.route.snapshot.paramMap.get('id');
-    this.gallery = ARTICLE.filter(article => article.id === Number(id) && article.secondPicture);
-
+    // this.gallery = ARTICLE.filter(article => article.id === Number(id) && article.secondPicture);
+    const article = ARTICLE.find(article => article.id === Number(id));
+    if (article) {
+      for (let i = 0; i < article.secondPicture.length; i++) {
+        this.gallery.push({
+          ...article,
+          secondPicture: [article.secondPicture[i]]
+        });
+      }
+    }
   }
 
 }
+
+

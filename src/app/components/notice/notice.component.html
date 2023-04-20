@@ -2,16 +2,22 @@
     <h2>Notre avis</h2>
     <article>
         <h3>Les plus</h3>
-            <ul *ngFor="let item of notice">
-                <li>{{ item.goodPoint }} </li>
+        <div>
+            <ul *ngFor="let item of notice[0].goodPoint">
+                <li>{{ item }} </li>
             </ul>
+        </div>
         <h3>Les moins</h3>
-            <ul *ngFor="let item of notice">
-                <li>{{ item.negativePoint }} </li>
+        <div>
+            <ul *ngFor="let item of notice[0].negativePoint">
+                <li>{{ item }} </li>
             </ul>
+        </div>
         <h3>Mon conseil</h3>
+        <div>
             <ul *ngFor="let item of notice">
                 <li>{{ item.advice }} </li>
             </ul>
+        </div>
     </article>
 </section>

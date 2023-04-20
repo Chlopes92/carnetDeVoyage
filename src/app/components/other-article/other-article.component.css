@@ -27,7 +27,7 @@ p{
     color: white;
     position: relative;
     top: -46px;
-    height: 74px;
+    height: 68px;
     display: grid;
     grid-template-columns: 8fr 0fr 4fr;
 }

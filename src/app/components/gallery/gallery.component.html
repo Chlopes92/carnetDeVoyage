@@ -1,4 +1,5 @@
 <section>
         <h2>Pour voyager un peu plus</h2>
-        <img *ngFor="let item of gallery" src="{{ item.secondPicture }}" alt="{{item.country}}">
+        <img *ngFor="let item of gallery; let i = index"  src="{{ item.secondPicture }}" alt="{{item.country}}">
+        
 </section>

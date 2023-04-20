@@ -1,0 +1,13 @@
+app-go-back{
+    position: absolute;
+    right: 0;
+    top: 70px;
+}
+
+@media(min-width: 1030px){
+    app-go-back{
+        bottom: 0;
+        top: auto;
+        position: fixed;
+    }
+}
