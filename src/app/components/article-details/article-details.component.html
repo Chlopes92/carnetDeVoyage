@@ -1,5 +1,5 @@
 <section *ngFor="let item of articleDetail">
-    <div class="card">
+    <div class="articleDetail">
         <h3>{{ item.country }} - {{ item.city }}</h3>
         <p>{{ item.startDate | date:'dd.MM.yy' }} · {{ item.returnDate | date:'dd.MM.yy' }}</p>
     </div>

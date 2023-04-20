@@ -26,8 +26,12 @@ body{
     background-color: var(--color--bg);
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    max-height: 100vh;
+    /* height: 100vh; */
+    /* max-height: 100vh; */
+}
+
+main::-webkit-scrollbar{
+    display: none;
 }
 
 /* div,section,main,header,nav{
@@ -44,10 +48,10 @@ img{
     display: block;
 }
 
-p, button{
+/* p, button{
     font-weight: 700;
     font-size: 16px;
-}
+} */
 
 .flex{
     display: flex;

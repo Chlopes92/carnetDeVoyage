@@ -1,0 +1,38 @@
+div{
+    background-color: var(--color--bg-text);
+    padding: 23px;
+}
+
+h2{
+    font-size: 28px;
+    margin-top: 76px;
+    margin-bottom: 35px;
+}
+
+img{
+    margin-bottom: 19px;
+    min-width: 100%;
+}
+
+p{
+    color: white;
+}
+
+@media(min-width: 1030px){
+    h2{
+        font-size: 60px;
+        margin-top: 114px;
+    }
+
+    img{
+        min-width: 0%;
+        height: 320px;
+        width: 320px;
+        object-fit: cover;
+        display: inline;
+        padding-bottom: 27px;
+        padding-left: 35px;
+
+    }
+
+}
