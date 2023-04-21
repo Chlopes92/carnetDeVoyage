@@ -39,7 +39,7 @@ export const ARTICLE: IArticle[] = [
                     "La côte très fréquentée l’été et de plus en plus bétonnée."
                     ],
     advice: [
-             "Prenez une paire de tong !"
+             "Prenez une paire de tong "
             ],
     summary: "L’Albanie est un pays que nous avons adoré visiter, en grande partie grâce à l’accueil chaleureux des Albanais, mais pas seulement ! Nous avons découvert une culture fièrement préservée, une variété de paysages captivante et de nombreux coins tranquilles, y compris au mois de juillet. Seule la côte adriatique sature de touristes l’été. Notre conseil, si vous venez à cette saison, serait alors de s’éloigner de la mer et de privilégier les villages et les montagnes dans le reste du pays, où se concentre à notre avis tout le charme de l’Albanie.",
     topOfPage: true,
