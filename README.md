@@ -1,6 +1,7 @@
 # Blog de voyage 🖼️
 
-Une photographe et globe trotteuse souhaite un blog pour pouvoir partager ses photos et astuces de voyage.
+Une photographe et globe trotteuse souhaite un blog pour pouvoir partager ses photos et astuces de voyage. 
+
 L'application se doit d'être Responsive et faire appel à l'API https://www.visualcrossing.com/
 
 # Contexte du projet
