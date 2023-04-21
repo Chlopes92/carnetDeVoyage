@@ -12,6 +12,7 @@ h2{
 p{
     color: white;
     font-size: 18px;
+    white-space: pre-line;
 }
 
 @media(min-width: 1030px){
@@ -26,5 +27,6 @@ p{
 
     p{
         font-size: 20px;
+        white-space: pre-line;
     }
 }

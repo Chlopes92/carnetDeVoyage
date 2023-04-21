@@ -1,6 +1,12 @@
 <app-go-back></app-go-back>
-<app-article-details></app-article-details>
-<app-summary [title]="'Le voyage'" [text]="article!.travelText"></app-summary>
+<app-article-details
+    [dataCountry]="articleInfo!.country"
+    [dataCity]="articleInfo!.city"
+    [dataStartDate]="articleInfo!.startDate"
+    [dataReturnDate]="articleInfo!.returnDate"
+    [dataMainPicture]="articleInfo!.mainPicture"
+></app-article-details>
+<app-summary [title]="'Le voyage'" [text]="articleInfo!.travelText"></app-summary>
 <app-notice></app-notice>
-<app-summary [title]="'En résumé'" [text]="article!.summary"></app-summary>
+<app-summary [title]="'En résumé'" [text]="articleInfo!.summary"></app-summary>
 <app-gallery></app-gallery>
