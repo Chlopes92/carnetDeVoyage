@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { IArticle, ARTICLE } from 'src/app/mocks/article.mock';
 
@@ -8,6 +8,9 @@ import { IArticle, ARTICLE } from 'src/app/mocks/article.mock';
   styleUrls: ['./summary.component.css']
 })
 export class SummaryComponent {
+
+  @Input() title!: string;
+  @Input() text!: string;
 
   summary: IArticle[] = [];
 
