@@ -15,6 +15,13 @@ main{
     padding-top: 44px;
 }
 
+@media screen and (min-width: 1210px) and (max-width: 1345px){
+
+    main{
+        padding-left: 152px;
+    }
+}
+
 @media(min-width: 1032px){
     main{
         /* padding-left: 167px; */

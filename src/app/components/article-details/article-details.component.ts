@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { IArticle, ARTICLE } from 'src/app/mocks/article.mock';
 
@@ -8,6 +8,15 @@ import { IArticle, ARTICLE } from 'src/app/mocks/article.mock';
   styleUrls: ['./article-details.component.css']
 })
 export class ArticleDetailsComponent {
+
+  // Import des données dont j'ai besoin depuis le PARENT (la page article)
+
+  @Input() dataCountry!: string;
+  @Input() dataCity!: string;
+  @Input() dataStartDate!: Date;
+  @Input() dataReturnDate!: Date;
+  @Input() dataMainPicture!: string;
+  
   
   articleDetail: IArticle[] = [];
 
